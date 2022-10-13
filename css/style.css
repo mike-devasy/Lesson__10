@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:regular,700,900&display=swap");
+body {
+  font-family: "Lato sans-serif";
+  color: #424551;
+}
+.wrapper {}
+
+.header {}
+
+.header__container {
+	max-width: 810px;
+  margin: 0 auto;
+}
+
+.header__title {
+	font-size: 46px;
+  font-weight: 900;
+  line-height: 1.3;
+  color: #1e212c;
+  padding: 50px 0;
+  margin-bottom: 40px;
+}
+
+.header__image {
+	margin-bottom: 60px;
+}
+.header__image img{
+	max-width:100%;
+}
+
+.main {}
+
+.main__container {
+	max-width: 810px;
+  margin: 0 auto;
+}
+
+.main__text{}
+
+.text{
+	line-height: 1.6;
+} 
+
+.text__quote {
+	color: #1e212c;
+  font-size: 20px;
+  line-height: 1.5;
+  font-weight: 700;
+}
+
+.text__quote_first {
+	margin-bottom: 24px;
+}
+
+
+.text__quote_last{
+	padding:0 58px;
+	margin-bottom: 48px;
+} 
+.text__middle {
+	margin-bottom: 48px;
+}
+.text__middle p:not(:last-child){
+	margin-bottom: 45px;
+}
+.main__before-list{
+	margin-bottom: 24px;
+} 
+
+.main__list {}
+
+.list{
+	margin-bottom: 24px;
+  line-height: 1.6;
+} 
+
+.list-item{
+  text-indent: 30px;
+} 
+.list-item:not(:last-child){
+	margin-bottom: 4px;
+
+}
+.main__down-text{
+	margin-bottom: 25px;
+} 
+.main__down-text p:not(:last-child){
+	margin-bottom: 40px;
+}
+.footer 
